@@ -1,0 +1,10 @@
+@import '../../core/mixins.scss';
+
+$primary-size: 100px;
+
+.ProductList {
+  @include center-center;
+
+  flex-wrap: wrap;
+}
+

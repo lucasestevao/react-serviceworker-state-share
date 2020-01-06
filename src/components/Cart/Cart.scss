@@ -1,0 +1,32 @@
+@import '../../core/mixins.scss';
+
+$primary-color: rgba(232, 109, 115, 0.5);
+$primary-size: 50px;
+$secondary-size: 42px;
+
+.Cart {
+  @include center-center;
+
+  position: relative;
+  width: $primary-size;;
+  height: $primary-size;;
+  margin-bottom: 50px;
+
+  &__counter {
+    @include center-center;
+
+    position: absolute;
+    left: 10px;
+    top: 0px;
+
+    min-width: $secondary-size;
+    height: $secondary-size;
+
+    background-position: center;
+    background-color: $primary-color;
+
+    border-radius: 50%;
+    font-weight: 600;
+  }
+}
+

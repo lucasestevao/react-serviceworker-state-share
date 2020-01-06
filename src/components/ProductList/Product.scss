@@ -1,0 +1,63 @@
+@import '../../core/mixins.scss';
+
+$primary-size: 100px;
+$secondary-size: $primary-size * 2;
+
+.Product {
+  @include center-center;
+
+  position: relative;
+
+  margin: 10px;
+  padding: 5px;
+  height: $primary-size;
+  background-color: #f1f1f1;
+
+  .image {
+    max-width: $primary-size;
+    max-height: 90px;
+  }
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: $secondary-size;
+    height: $primary-size;
+    padding: 5px;
+    text-align: left;
+
+    .name {
+      font-weight: 600;
+    }
+
+    .description {
+      font-size: 11px;
+      color: #6f6f6f;
+    }
+
+    .price {
+      font-weight: 600;
+    }
+  }
+
+  .button-container {
+    @include center-center;
+    justify-content: space-evenly;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.3);
+    opacity: 0;
+    transition: opacity 500ms ease;
+    cursor: pointer;
+  }
+
+  &:hover{
+    .button-container {
+      opacity: 1;
+    }
+  }
+}

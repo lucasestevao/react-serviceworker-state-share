@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "description": "C-3PO is a droid programmed for etiquette and protocol, built by the heroic Jedi Anakin Skywalker.",
+      "id": "1",
+      "name": "C-3PO",
+      "price": "$49.75",
+      "src": "./public/assets/c3po.png"
+    },
+    {
+      "description": "During his long life Chewbacca has been many things: Wookiee warrior, ace smuggler and rebel hero.",
+      "id": "2",
+      "name": "chewbacca",
+      "price": "$119.99",
+      "src": "./public/assets/chewbacca.png"
+    },
+    {
+      "description": "Once a Jedi Knight, Darth Vader was seduced by the dark side of the Force, and became a Sith Lord.",
+      "id": "3",
+      "name": "Darth Vader",
+      "price": "$549.90",
+      "src": "./public/assets/darth-vader.png"
+    },
+    {
+      "description": "Forever captain of the Millennium Falcon, and Princess Leia Organa's crush.",
+      "id": "4",
+      "name": "Han Solo",
+      "price": "$125.90",
+      "src": "./public/assets/han-solo.png"
+    },
+    {
+      "description": "Tatooine farmboy who become one of the greatest Jedi the galaxy has ever known.",
+      "id": "5",
+      "name": "Luke Skywalker",
+      "price": "$385.00",
+      "src": "./public/assets/luke.png"
+    },
+    {
+      "description": "A resourceful astromech droid, and skilled starship mechanic and fighter pilot's assistant.",
+      "id": "6",
+      "name": "R2-D2",
+      "price": "$59.75",
+      "src": "./public/assets/r2d2.png"
+    },
+    {
+      "description": "Elite shock troops who wield blaster rifles and pistols, but can't kill an elephant in front of their own eyes.",
+      "id": "7",
+      "name": "Stormtrooper",
+      "price": "$8.25",
+      "src": "./public/assets/stormtrooper.png"
+    },
+    {
+      "description": "Yoda was a legendary Jedi Master and stronger than most in his connection with the Force.",
+      "id": "8",
+      "name": "Yoda",
+      "price": "$990.90",
+      "src": "./public/assets/yoda.png"
+    }
+  ]
+}

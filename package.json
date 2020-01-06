@@ -1,0 +1,34 @@
+{
+  "name": "parcel-react-service-worker-store-cart",
+  "version": "1.0.0",
+  "description": "Parcel version. Using service workers to sync react hooks components state across tabs in a store app, which enables the users to receive updates in their cart even when they add products from other tabs or windows",
+  "keywords": [
+    "parcel",
+    "react",
+    "service worker",
+    "react hooks",
+    "store",
+    "cart"
+  ],
+  "main": "index.html",
+  "dependencies": {
+    "@babel/core": "7.7.7",
+    "@babel/plugin-proposal-optional-chaining": "7.7.5",
+    "@babel/plugin-syntax-optional-chaining": "7.7.4",
+    "node-sass": "4.13.0",
+    "parcel-bundler": "1.12.4",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-ripples": "2.2.1"
+  },
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
